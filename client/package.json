@@ -2,6 +2,9 @@
   "name": "cosmopawlitan",
   "proxy": "http://localhost:8080",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.15.5"
+  }
   "private": true,
   "dependencies": {
     "@creativebulma/bulma-collapsible": "^1.0.4",
