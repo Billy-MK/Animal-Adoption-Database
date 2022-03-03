@@ -1,0 +1,58 @@
+{
+  "name": "cosmopawlitan",
+  "version": "0.1.0",
+  "engines": {
+    "node": "14.15.5",
+    "npm": "6.14.11"
+  },
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "concurrently": "^6.1.0",
+    "connect-mongo": "^4.4.1",
+    "dotenv": "^9.0.2",
+    "express": "^4.16.2",
+    "express-session": "^1.17.2",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.10",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "react-scripts": "4.0.3"
+  },
+  "scripts": {
+    "start": "node ./server.js",
+    "client": "cd client && npm run start",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build",
+    "connect-mongo": "^4.4.1",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.12.11",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "spectre.css": "^0.5.0",
+    "dev": "concurrently \"cd client && react-scripts start\" \"nodemon server.js\"",
+    "api": "nodemon ./server.js",
+    "seed": "node scripts/seedDB.js"
+  },
+  "devDependencies": {
+    "concurrently": "^6.1.0",
+    "nodemon": "^1.17.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
