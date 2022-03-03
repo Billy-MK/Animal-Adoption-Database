@@ -26,7 +26,6 @@
     "start": "node ./server.js",
     "client": "cd client && npm run start",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build",
     "connect-mongo": "^4.4.1",
     "express": "^4.16.2",
     "express-session": "^1.15.6",
